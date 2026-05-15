@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Aquaglass-1, an absurdly premium website for a glass of water." />
+    <title>Aquaglass-1 — Hydration, over-engineered</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="aurora aurora-one" aria-hidden="true"></div>
+    <div class="aurora aurora-two" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#intro" aria-label="Aquaglass home">
+        <span class="brand-mark"><span></span></span>
+        <span>AQUAGLASS</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#features">System</a>
+        <a href="#benchmarks">Benchmarks</a>
+        <a href="#models">Models</a>
+        <a href="#paper">Paper</a>
+      </nav>
+      <a class="header-cta" href="#lab">Open hydration lab</a>
+    </header>
+
+    <main>
+      <section class="hero section" id="intro">
+        <div class="hero-copy reveal">
+          <div class="status-pill"><span></span> Introducing Aquaglass-1 · open-weight vessel model</div>
+          <h1>Water, but with a launch page it absolutely did not need.</h1>
+          <p class="lede">
+            A cinematic, glass-native hydration interface with transparent weights, zero-latency sipping, and frontier table stability.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#lab">Tune water level</a>
+            <a class="button ghost" href="#benchmarks">View fake benchmarks</a>
+          </div>
+          <dl class="hero-stats" aria-label="Aquaglass headline metrics">
+            <div><dt>0 ms</dt><dd>Sip latency</dd></div>
+            <div><dt>∞</dt><dd>Offline uptime</dd></div>
+            <div><dt>1.0</dt><dd>Glass-to-water ratio</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero-stage reveal" aria-label="A premium animated glass of water product render">
+          <div class="scanline"></div>
+          <div class="halo halo-large"></div>
+          <div class="halo halo-small"></div>
+          <div class="floating-label label-top">Hydration Core</div>
+          <div class="floating-label label-side">Transparent Weights</div>
+          <div class="glass-shell">
+            <div class="rim"></div>
+            <div class="water" id="heroWater">
+              <span class="wave wave-one"></span>
+              <span class="wave wave-two"></span>
+              <span class="bubble b1"></span>
+              <span class="bubble b2"></span>
+              <span class="bubble b3"></span>
+              <span class="bubble b4"></span>
+            </div>
+            <div class="ice ice-one"></div>
+            <div class="ice ice-two"></div>
+            <div class="shine"></div>
+            <div class="glass-grid"></div>
+          </div>
+          <div class="hero-console">
+            <span>Containment</span>
+            <strong>99.97%</strong>
+            <div class="console-meter"><span></span></div>
+          </div>
+          <div class="shadow"></div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Hydration buzzwords">
+        <div class="ticker-track">
+          <span>Zero tokens</span><span>100% wet</span><span>On-table inference</span><span>Glass-native</span><span>Room-temperature ready</span><span>No cloud required</span>
+          <span>Zero tokens</span><span>100% wet</span><span>On-table inference</span><span>Glass-native</span><span>Room-temperature ready</span><span>No cloud required</span>
+        </div>
+      </section>
+
+      <section class="section manifesto reveal">
+        <p class="overline">Not just a glass</p>
+        <h2>A vertically transparent hydration interface for people who enjoy drinking water and pretending it is infrastructure.</h2>
+        <p>
+          Aquaglass-1 combines legacy liquid containment with modern startup theatrics. It does not connect to Wi-Fi, mine crypto, or summarize your calendar. It simply holds water with alarming confidence.
+        </p>
+      </section>
+
+      <section class="section lab" id="lab">
+        <div class="lab-copy reveal">
+          <p class="eyebrow">Interactive hydration lab</p>
+          <h2>Fine-tune the most obvious liquid parameter.</h2>
+          <p>Drag the slider to adjust water level in real time. This is technically a control panel, which makes the glass enterprise-ready.</p>
+        </div>
+        <div class="lab-panel reveal">
+          <div class="lab-glass" aria-hidden="true">
+            <div class="lab-water" id="labWater"></div>
+            <div class="lab-rim"></div>
+          </div>
+          <div class="lab-controls">
+            <label for="waterLevel">Water level</label>
+            <input id="waterLevel" type="range" min="28" max="82" value="62" />
+            <output id="waterOutput" for="waterLevel">62%</output>
+            <button class="button mini" type="button" id="encryptButton">Encode sip note</button>
+            <p class="secret" id="secretNote">Hidden message: drink the water before it becomes room lore.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section feature-grid" id="features">
+        <article class="feature-card tall reveal">
+          <p class="eyebrow">Frontier containment</p>
+          <h3>Oryzo-level drama, but wetter.</h3>
+          <p>Our model predicts where water should be: inside the glass. Breakthrough accuracy under normal gravity, medium confidence near elbows.</p>
+          <div class="mini-terminal" aria-label="Hydration terminal mockup">
+            <span>$ aquaglass run --table kitchen</span>
+            <span>checking gravity... ok</span>
+            <span>liquid boundary stable</span>
+            <span>sip endpoint ready</span>
+          </div>
+        </article>
+        <article class="feature-card metric-card reveal">
+          <span class="metric">0.00W</span>
+          <h3>Always on</h3>
+          <p>No charging, pairing, batteries, or firmware. The glass remains a glass during outages.</p>
+        </article>
+        <article class="feature-card dark-card reveal">
+          <h3>Smart flip encryption</h3>
+          <p>Write a secret on the bottom. Set it down. Instantly hidden until someone performs the advanced exploit: lifting it.</p>
+          <span class="chip">AES-256-ish</span>
+        </article>
+        <article class="feature-card graph-card reveal">
+          <h3>Thermal diffusion model</h3>
+          <div class="bars" aria-label="Temperature model visualization">
+            <span style="--h: 38%"></span><span style="--h: 52%"></span><span style="--h: 67%"></span><span style="--h: 44%"></span><span style="--h: 59%"></span><span style="--h: 73%"></span>
+          </div>
+          <p>Ice eventually becomes water, because it loves the roadmap.</p>
+        </article>
+        <article class="feature-card reveal">
+          <p class="eyebrow">Grip-locked base</p>
+          <h3>Precision table contact</h3>
+          <p>A flat bottom creates stable deployment across desks, nightstands, countertops, and dramatic launch pages.</p>
+        </article>
+        <article class="feature-card reveal">
+          <p class="eyebrow">Transparent weights</p>
+          <h3>Open inspection</h3>
+          <p>Anyone can audit the water level without a dashboard subscription, enterprise seat, or CSV export.</p>
+        </article>
+      </section>
+
+      <section class="section benchmarks" id="benchmarks">
+        <div class="bench-copy reveal">
+          <p class="eyebrow">Benchmarks</p>
+          <h2>State-of-the-art results on completely made-up hydration evaluations.</h2>
+        </div>
+        <div class="bench-table reveal" role="table" aria-label="Hydration benchmark table">
+          <div class="bench-row head" role="row"><span>Model</span><span>Clarity</span><span>Offline mode</span><span>Spill resistance</span></div>
+          <div class="bench-row winner" role="row"><span>Aquaglass-1</span><strong>99.9</strong><span>Native</span><span>Table-dependent</span></div>
+          <div class="bench-row" role="row"><span>Mug-3</span><strong>42.1</strong><span>Native</span><span>Mysterious</span></div>
+          <div class="bench-row" role="row"><span>Paper Cup Mini</span><strong>18.4</strong><span>Native</span><span>Emotional</span></div>
+          <div class="bench-row" role="row"><span>Hands v0</span><strong>3.2</strong><span>Native</span><span>Catastrophic</span></div>
+        </div>
+      </section>
+
+      <section class="section reviews">
+        <div class="reveal">
+          <p class="eyebrow">People all around the sink love Aquaglass</p>
+          <h2>Reviews after living with water.</h2>
+        </div>
+        <div class="review-list">
+          <blockquote class="reveal">“I used to drink from mugs. Then Aquaglass showed me the future was visible.”<cite>— Mara P., Transparent Tech Analyst</cite></blockquote>
+          <blockquote class="reveal">“The uptime is ridiculous. It just keeps sitting there.”<cite>— Ben K., Edge Hydration Engineer</cite></blockquote>
+          <blockquote class="reveal">“Five stars. I spilled it once and blamed the floor.”<cite>— Jules M., Gravity Skeptic</cite></blockquote>
+        </div>
+      </section>
+
+      <section class="section model-section" id="models">
+        <p class="eyebrow reveal">Choose your own vessel</p>
+        <h2 class="reveal">Aquaglass, Aquaglass Pro, and Aquaglass Pro Max.</h2>
+        <div class="pricing-grid">
+          <article class="model-card reveal">
+            <span class="badge">New</span>
+            <h3>Aquaglass</h3>
+            <p>One glass. One job. Beautifully hydrated.</p>
+            <ul>
+              <li>Capacity: sensible</li>
+              <li>Connectivity: none</li>
+              <li>Best for: daily sips</li>
+            </ul>
+          </article>
+          <article class="model-card featured reveal">
+            <span class="badge">SOTA</span>
+            <h3>Aquaglass Pro</h3>
+            <p>More water, more presence, more countertop confidence.</p>
+            <ul>
+              <li>Capacity: ambitious</li>
+              <li>Updates: never</li>
+              <li>Best for: meetings</li>
+            </ul>
+          </article>
+          <article class="model-card reveal">
+            <span class="badge">Excessive</span>
+            <h3>Aquaglass Pro Max</h3>
+            <p>A towering monument to thirst with maximum liquid context.</p>
+            <ul>
+              <li>Capacity: frankly too much</li>
+              <li>Pairing: not required</li>
+              <li>Best for: dramatic desks</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section paper reveal" id="paper">
+        <div class="paper-label">Our SOTA open-weight model</div>
+        <h2>Aquaglass-1: Open-Weight Transparent Hydration Model</h2>
+        <p>
+          We present Aquaglass-1, a high-fidelity physical model for water containment, visual inspection, and gloriously unnecessary research. Baselines were evaluated on KitchenBench, a standardized suite conducted near a sink and possibly rigged by us.
+        </p>
+        <pre><code>@misc{aquaglass2026,
+  title = {Aquaglass-1: Open-Weight Hydration Model},
+  author = {A Very Thirsty Team},
+  year = {2026},
+  note = {No code. Only water.}
+}</code></pre>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <h2>We caught your attention with a glass of water.</h2>
+      <p>If we can over-sell hydration, imagine what we can do for your brand.</p>
+      <a class="button primary" href="mailto:hello@example.com">Start a sip</a>
+      <small>This site is a fictional creative project. Aquaglass is just a glass of water. Claims are satirical and for entertainment only.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
